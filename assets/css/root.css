@@ -680,9 +680,43 @@ a {
     .max-w-about-us-box {
         max-width: 600px;
     }
+
+    .py-about-us {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    /* roadmap section */
+    .image_wh_box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .wh_changes_timeline_img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .image-token-sec {
+        width: 50%;
+    }
+
+    .token_box {
+        max-width: 768px;
+    }
+
+    .py-takenomics {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .py-roadmap-sec {
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768.9px) {
     .fs-heading-hero {
         font-size: var(--fs-50);
     }
@@ -697,7 +731,89 @@ a {
     }
 
     .fs-heading-about-us {
-        font-size: var(--fs-40);
+        font-size: var(--fs-36);
+    }
+
+    .my-media-about-us {
+        margin-bottom: 20px;
+        margin-top: 16px;
+    }
+
+    .timeline .top-right,
+    .timeline .top-left,
+    .corner,
+    .timeline hr {
+        display: none;
+    }
+
+    .after-roadmap-line {
+        position: relative;
+    }
+
+    .after-roadmap-line::after {
+        content: "";
+        position: absolute;
+        border: 1px dashed var(--color-white);
+        height: 100%;
+        top: 10px;
+        left: 10%;
+        z-index: 2;
+    }
+
+    .d-md-roadmap-none {
+        display: none !important;
+    }
+
+    .image_wh_box {
+        width: 50px;
+        height: 45px;
+    }
+
+    .image_wh_box_media {
+        width: 45px;
+        height: 45px;
+    }
+
+    .wh_changes_timeline_img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .fs-sub-heading-roadmap {
+        font-size: var(--fs-16);
+    }
+
+    .pos-roadmap-row {
+        left: -3%;
+    }
+
+    .pos-roadmap-row-max-md {
+        left: 0;
+        top: -5px;
+    }
+
+    .image_wh_box {
+        background: var(--btn-border-lg);
+    }
+
+    .token_box {
+        padding: 20px;
+    }
+
+    .py-takenomics {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .py-roadmap-sec {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-md-min-roadmap-none {
+        display: none !important;
     }
 }
 
@@ -724,6 +840,33 @@ a {
         max-width: 500px;
         height: 320px;
     }
+
+    .py-about-us {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .max-w-token-circle-sec {
+        width: 250px;
+    }
+
+    .image-token-sec {
+        width: 100%;
+    }
+
+    .py-takenomics {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .py-roadmap-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .fs-sub-heading-token {
+        font-size: var(--fs-20);
+    }
 }
 
 @media (min-width: 992px) {
@@ -735,5 +878,9 @@ a {
 @media (min-width: 576px) {
     .display_changes_1 {
         display: none;
+    }
+
+    .max-w-token-circle-sec {
+        width: 285px;
     }
 }

@@ -108,10 +108,196 @@
     max-width: 490px;
 }
 
-/* <----------------------------------------------------------- positions ----------------------------------------------------------------> */
+/* <----------------------------------------------------------- Roadmap ----------------------------------------------------------------> */
 
-/* <-----------------------------------------------------------  Hover Effects ----------------------------------------------------------------> */
+.py-roadmap-sec {
+    padding-top: 98px;
+    padding-bottom: 180px;
+}
 
+.sec-back-clr {
+    background: var(--black-color);
+}
+
+.max-w-roadmap-text {
+    max-width: 602px;
+}
+
+/* <----------------------------------------------------------- timeline ----------------------------------------------------------------> */
+
+.timeline_boxes {
+    position: relative;
+}
+
+.timeline_boxes {
+    max-width: 578px;
+    background: linear-gradient(0deg, #000000, #000000),
+        linear-gradient(180deg, rgba(37, 37, 203, 0) 0%, rgba(37, 37, 203, 0.24) 100%);
+    padding: 24px;
+}
+
+.timeline_boxes::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    padding: 3px;
+    background: linear-gradient(0deg, #212181, #212181),
+        linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.image_wh_box {
+    width: 160px;
+    height: 160px;
+    background: #FFFFFF1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 96.63px;
+}
+
+.circle {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: #ED8D8D;
+    color: #4D4545;
+    max-height: 50px;
+    z-index: 2;
+    display: none;
+}
+
+.how-it-works.row {
+    display: flex;
+}
+
+.how-it-works.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #ED8D8D;
+    z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+    display: none;
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.timeline div {
+    padding: 0;
+    height: 88px;
+}
+
+hr {
+    opacity: 1;
+}
+
+.wh_changes_timeline_img {
+    width: 100px;
+    height: 100px;
+}
+
+.timeline hr {
+    border-top: 3px dashed #fff;
+    margin: 0;
+    top: 41px;
+    position: relative;
+}
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline .corner {
+    border: 3px dashed #fff;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.bottom::after,
+.how-it-works.row .col-2.top::after {
+    display: none;
+}
+
+.mt-media-roadmap {
+    margin-top: 60px;
+}
+
+/* <-----------------------------------------------------------  Tokenomics ----------------------------------------------------------------> */
+
+.py-takenomics {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.token_box {
+    position: relative;
+    background: #21218126;
+    padding: 45px;
+}
+
+.token_box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    padding: 3px;
+    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
 /* <----------------------------------------------------------- before and after ----------------------------------------------------------------> */
 
 /* <----------------------------------------------------------- scroll to top ----------------------------------------------------------------> */
