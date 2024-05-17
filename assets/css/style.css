@@ -1,0 +1,111 @@
+/* <----------------------------------------------------------- navbar ----------------------------------------------------------------> */
+
+.opac_70 {
+    opacity: 70%;
+}
+
+.hero_back_img {
+    background-image: url("../Images/PNG/hero_sec_back_img.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.changes-navBar {
+    background: var(--navBar-back);
+    border-radius: 107px;
+    padding: 10px 12px;
+    border: 1px solid var(--navBar-back);
+    box-shadow: 0px 0px 11.6px 4px var(--drop-shadow);
+}
+
+.gap_media {
+    gap: 30px;
+}
+
+.nav_link {
+    transition: all 300ms linear;
+}
+
+.nav_link:hover {
+    opacity: 100%;
+}
+
+.btn_change {
+    padding: 16px 34px;
+    border-radius: 55px;
+    background: var(--btn-navBar);
+    border: 1px solid transparent;
+}
+
+.btn_change {
+    position: relative;
+}
+
+.btn_change::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 55px;
+    padding: 3px;
+    background: var(--btn-border-lg);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+/* <-----------------------------------------------------------Hero section ----------------------------------------------------------------> */
+
+.max-w-hero-text {
+    max-width: 920px;
+}
+
+.max-w-hero-sub-text {
+    max-width: 580px;
+}
+
+.mb_media_sub_text {
+    margin-bottom: 32px;
+}
+
+.play_icon {
+    padding: 11px;
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.pos_bottom_layer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* <-----------------------------------------------------------btn changes ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- positions ----------------------------------------------------------------> */
+
+/* <-----------------------------------------------------------  Hover Effects ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- before and after ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- scroll to top ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Keyframes ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Progress ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- slider changes ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- z-indexes ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Accordion ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- animated menuicon ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Preloader ----------------------------------------------------------------> */
