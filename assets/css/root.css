@@ -173,7 +173,7 @@
 }
 
 .container_diff_hero {
-    max-width: 1200px;
+    max-width: 1001px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -714,6 +714,22 @@ a {
         padding-top: 90px;
         padding-bottom: 120px;
     }
+
+    .py-partner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .img-box-partner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mt-media-partner {
+        margin-top: 24px;
+    }
 }
 
 @media (max-width: 768.9px) {
@@ -809,6 +825,10 @@ a {
         padding-top: 70px;
         padding-bottom: 80px;
     }
+
+    .mt-media-roadmap {
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -843,7 +863,7 @@ a {
 
     .py-about-us {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 0;
     }
 
     .max-w-token-circle-sec {
@@ -856,16 +876,39 @@ a {
 
     .py-takenomics {
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 0;
     }
 
     .py-roadmap-sec {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 0;
     }
 
     .fs-sub-heading-token {
         font-size: var(--fs-20);
+    }
+
+    .max-w-media-sm {
+        max-width: 100% !important;
+    }
+
+    .mt-media-partner {
+        margin-top: 20px;
+    }
+
+    .timeline_boxes {
+        padding: 12px;
+    }
+
+    .mt-media-roadmap {
+        margin-top: 30px;
+    }
+
+    .img-box-partner {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

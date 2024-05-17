@@ -298,7 +298,45 @@ hr {
     mask-composite: exclude;
     pointer-events: none;
 }
-/* <----------------------------------------------------------- before and after ----------------------------------------------------------------> */
+
+/* <----------------------------------------------------------- Partner section ----------------------------------------------------------------> */
+
+.py-partner {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.img-box-partner {
+    width: 220px;
+    min-height: 80px;
+    padding: 19.99px 29.26px 20px 29px;
+    position: relative;
+}
+
+.img-box-partner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 6px;
+    padding: 1px;
+    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.mt-media-partner {
+    margin-top: 40px;
+}
+
+.d-max-md-prop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* <----------------------------------------------------------- scroll to top ----------------------------------------------------------------> */
 
