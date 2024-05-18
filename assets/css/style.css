@@ -338,11 +338,74 @@ hr {
     justify-content: center;
 }
 
-/* <----------------------------------------------------------- scroll to top ----------------------------------------------------------------> */
+/* <----------------------------------------------------------- Staking ----------------------------------------------------------------> */
 
-/* <----------------------------------------------------------- Keyframes ----------------------------------------------------------------> */
+.py-staking {
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
 
-/* <----------------------------------------------------------- Progress ----------------------------------------------------------------> */
+.stake-back-img {
+    background-image: url("../Images/PNG/staking-back-img.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* <----------------------------------------------------------- Sub section ----------------------------------------------------------------> */
+
+.sub-box {
+    max-width: 1038px;
+    background: linear-gradient(180deg, rgba(241, 22, 64, 0.24) 0%, rgba(33, 33, 129, 0.19) 64.12%, rgba(33, 33, 129, 0.18) 100%);
+}
+
+.sub-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 6px;
+    padding: 1px;
+    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.btn-sub-sec {
+    background: #FFBBC81A;
+    border: 3px solid #DA0C1D;
+}
+
+.max-w-sub-box {
+    max-width: 462px;
+}
+
+.m-media-sub-box {
+    margin: 60px 0px 60px 60px;
+}
+
+.my-media-sub-sec {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.pos-sub-sec {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* <----------------------------------------------------------- footer ----------------------------------------------------------------> */
+.py-footer {
+    padding-top: 188px;
+}
+
+.box-footer {
+    max-width: 449px;
+}
 
 /* <----------------------------------------------------------- slider changes ----------------------------------------------------------------> */
 
