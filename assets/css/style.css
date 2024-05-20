@@ -598,7 +598,7 @@ hr {
     filter: blur(170px);
     border-radius: 50%;
     top: -100px;
-    right: 45px;
+    right: 0;
     z-index: 10;
 }
 
