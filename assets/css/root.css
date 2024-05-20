@@ -783,6 +783,11 @@ a {
         opacity: 50%;
     }
 
+    .w-h-media-token {
+        width: 100px;
+        height: 170px;
+    }
+
     .timeline_boxes_last {
         margin-right: 27px;
     }
