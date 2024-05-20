@@ -68,6 +68,10 @@
     max-width: 920px;
 }
 
+.hero-sec-cont {
+    z-index: 14;
+}
+
 .pos-hero-notes {
     bottom: 45px;
     z-index: 1;
@@ -97,9 +101,15 @@
     width: 100%;
 }
 
-.pos-ellipse-hero {
-    left: 0;
-    bottom: -60%;
+.bottom-ellipse-hero {
+    position: absolute;
+    width: 525px;
+    height: 525px;
+    background: #F11640B8;
+    filter: blur(400px);
+    border-radius: 50%;
+    bottom: 45px;
+    left: 45px;
     z-index: 10;
 }
 
@@ -132,11 +142,40 @@
 }
 
 .top-ellipse-timeline {
+    position: absolute;
     width: 525px;
     height: 525px;
     background: linear-gradient(180deg, #101145 0%, #212181 100%);
-    filter: blur(60px);
+    filter: blur(300px);
     border-radius: 50%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.bottom-ellipse-timeline {
+    position: absolute;
+    width: 525px;
+    height: 525px;
+    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    filter: blur(300px);
+    border-radius: 50%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.center-ellipse-timeline {
+    position: absolute;
+    width: 525px;
+    height: 525px;
+    background: #F11640B8;
+    filter: blur(400px);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 10;
 }
 
 .timeline .top-left {
@@ -339,10 +378,53 @@ hr {
 }
 
 /* <-----------------------------------------------------------  Tokenomics ----------------------------------------------------------------> */
+.ellipse-token {
+    position: absolute;
+    width: 259.81px;
+    height: 259.81px;
+    background: #F11640B8;
+    filter: blur(170px);
+    border-radius: 50%;
+    top: 150px;
+    left: 0;
+    z-index: 10;
+}
+
+.ellipse-token-bottom {
+    position: absolute;
+    width: 259.81px;
+    height: 259.81px;
+    background: #F11640B8;
+    filter: blur(170px);
+    border-radius: 50%;
+    bottom: -139px;
+    right: 0;
+    z-index: 10;
+}
+
+.pos-token-coins {
+    right: 63px;
+    bottom: -139px;
+}
 
 .py-takenomics {
     padding-top: 120px;
     /* padding-bottom: 120px; */
+}
+
+.pos-abs-fire-token {
+    top: -10%;
+    left: 0;
+}
+
+.w-h-max-md {
+    width: 269px;
+    height: 140px;
+}
+
+.pos-token-notes {
+    top: 0;
+    right: 17px;
 }
 
 .token_box {
@@ -406,6 +488,10 @@ hr {
 }
 
 /* <----------------------------------------------------------- Staking ----------------------------------------------------------------> */
+.pos-abs-fire-staking {
+    top: 0;
+    left: 0;
+}
 
 .py-staking {
     padding-top: 175px;
@@ -432,7 +518,21 @@ hr {
 }
 
 /* <----------------------------------------------------------- Sub section ----------------------------------------------------------------> */
-
+.top-ellipse-sub {
+    position: absolute;
+    width: 417px;
+    height: 417px;
+    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    filter: blur(250px);
+    border-radius: 50%;
+    z-index: 10;
+    top: -60%;
+    left: 0;
+}
+.pos-abs-dollar-sub{
+    top: -30%;
+    left: 0;
+}
 .sub-box {
     max-width: 1038px;
     background: linear-gradient(180deg, rgba(241, 22, 64, 0.24) 0%, rgba(33, 33, 129, 0.19) 64.12%, rgba(33, 33, 129, 0.18) 100%);
@@ -534,6 +634,18 @@ hr {
 }
 
 /* <----------------------------------------------------------- Roadmap section ----------------------------------------------------------------> */
+.ellipse-roadmap {
+    position: absolute;
+    width: 259.81px;
+    height: 259.81px;
+    background: #F11640B8;
+    filter: blur(170px);
+    border-radius: 50%;
+    bottom: 108px;
+    transform: translateY(-50%);
+    left: 45px;
+    z-index: 10;
+}
 
 .py-roadmap {
     padding-top: 77px;
