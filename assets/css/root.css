@@ -590,7 +590,18 @@ a {
 
 /* Media Queries */
 
+@media (max-width: 1200px) {
+    .opac-20-max-xl {
+        opacity: 20%;
+    }
+}
+
 @media (max-width: 991.9px) {
+    .about_us_back_img {
+        background-size: cover !important;
+        background-position: left !important;
+    }
+
     .py-footer {
         padding-top: 100px;
     }
@@ -605,7 +616,7 @@ a {
     }
 
     .pt-max-lg {
-        padding-top: 80px;
+        padding-top: 100px;
     }
 
     .py-staking {
@@ -735,7 +746,7 @@ a {
 
     .py-takenomics {
         padding-top: 80px;
-        padding-bottom: 80px;
+        /* padding-bottom: 80px; */
     }
 
     .py-roadmap-sec {
@@ -761,13 +772,52 @@ a {
 }
 
 @media (max-width: 768.9px) {
-    .pt-max-lg {
-        padding-top: 60px;
+    .timeline_boxes_last {
+        margin-right: 27px;
     }
 
+    .timeline div {
+        padding: 0;
+        height: 50px;
+    }
+
+    .pb-media-sub {
+        padding-bottom: 80px;
+    }
+
+    .fs-nav-link {
+        font-size: var(--fs-14);
+    }
+
+    .gap-media-footer {
+        gap: 20px;
+    }
+
+    .py-roadmap {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+
+    .mt-media-row-roadmap {
+        margin-top: 25px;
+    }
+
+    .mb-media-roadmap-heading {
+        margin-bottom: 30px;
+    }
+
+    /* .pt-max-lg {
+        padding-top: 60px;
+    } */
+
     .py-staking {
-        padding-top: 80px;
+        /* padding-top: 80px; */
         padding-bottom: 0;
+    }
+
+    .py-timeline-sec {
+        padding-top: 98px;
+        padding-bottom: 50px;
     }
 
     .fs-heading-hero {
@@ -855,7 +905,7 @@ a {
 
     .py-takenomics {
         padding-top: 60px;
-        padding-bottom: 60px;
+        /* padding-bottom: 60px; */
     }
 
     .py-roadmap-sec {
@@ -883,6 +933,45 @@ a {
 }
 
 @media (max-width: 576px) {
+    .timeline_boxes_last {
+        margin-right: 19px;
+    }
+
+    .pb-media-sub {
+        padding-bottom: 20px;
+    }
+
+    .timeline div {
+        padding: 0;
+        height: 25px;
+    }
+
+    .mb-media-roadmap-heading {
+        margin-bottom: 0;
+    }
+
+    .fs-nav-link {
+        font-size: var(--fs-10);
+    }
+
+    .gap-media-footer {
+        gap: 15px;
+    }
+
+    .pos-roadmap-img {
+        right: 100%;
+        bottom: 0;
+    }
+
+    .py-timeline-sec {
+        padding-top: 98px;
+        padding-bottom: 0;
+    }
+
+    .fs-sub-heading-roadmap-text {
+        font-size: var(--fs-16);
+    }
+
     .py-footer {
         padding-top: 60px;
     }
@@ -893,7 +982,7 @@ a {
     }
 
     .py-staking {
-        padding-top: 60px;
+        /* padding-top: 60px; */
         padding-bottom: 0;
     }
 
@@ -935,12 +1024,17 @@ a {
 
     .py-takenomics {
         padding-top: 50px;
-        padding-bottom: 0;
+        /* padding-bottom: 0; */
     }
 
     .py-roadmap-sec {
         padding-top: 60px;
         padding-bottom: 0;
+    }
+
+    .py-roadmap {
+        padding-top: 80px;
+        padding-bottom: 60px;
     }
 
     .fs-sub-heading-token {

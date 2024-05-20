@@ -4,6 +4,10 @@
     opacity: 70%;
 }
 
+.gap-media-footer {
+    gap: 30px;
+}
+
 .hero_back_img {
     background-image: url("../Images/PNG/hero_sec_back_img.png");
     background-size: 100% 100%;
@@ -35,7 +39,8 @@
     padding: 16px 34px;
     border-radius: 55px;
     background: var(--btn-navBar);
-    border: 1px solid transparent;
+    border: 0px solid transparent;
+    transition: all 300ms linear;
 }
 
 .btn_change {
@@ -108,9 +113,48 @@
     max-width: 490px;
 }
 
-/* <----------------------------------------------------------- Roadmap ----------------------------------------------------------------> */
+/* <----------------------------------------------------------- Timeline ----------------------------------------------------------------> */
+.timeline .top-left {
+    left: -81% !important;
+}
 
-.py-roadmap-sec {
+.timeline .top-left.corner {
+    border-left: none !important;
+    border-top: none !important;
+    border-radius: 0 !important;
+}
+
+.timeline .left-bottom {
+    left: -81% !important;
+}
+
+.timeline .left-bottom.corner {
+    border-left: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+}
+
+.timeline .top-right {
+    left: 81% !important;
+}
+
+.timeline .top-right.corner {
+    border-right: none !important;
+    border-top: none !important;
+    border-radius: 0 !important;
+}
+
+.timeline .right-bottom {
+    left: 81% !important;
+}
+
+.timeline .right-bottom.corner {
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+}
+
+.py-timeline-sec {
     padding-top: 98px;
     padding-bottom: 180px;
 }
@@ -122,8 +166,6 @@
 .max-w-roadmap-text {
     max-width: 602px;
 }
-
-/* <----------------------------------------------------------- timeline ----------------------------------------------------------------> */
 
 .timeline_boxes {
     position: relative;
@@ -220,7 +262,7 @@ hr {
 
 .wh_changes_timeline_img {
     width: 100px;
-    height: 100px;
+    height: 70px;
 }
 
 .timeline hr {
@@ -275,7 +317,7 @@ hr {
 
 .py-takenomics {
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .token_box {
@@ -352,11 +394,27 @@ hr {
     background-repeat: no-repeat;
 }
 
+.stake-top-layer {
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.stake-bottom-layer {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 /* <----------------------------------------------------------- Sub section ----------------------------------------------------------------> */
 
 .sub-box {
     max-width: 1038px;
     background: linear-gradient(180deg, rgba(241, 22, 64, 0.24) 0%, rgba(33, 33, 129, 0.19) 64.12%, rgba(33, 33, 129, 0.18) 100%);
+}
+
+.pb-media-sub {
+    padding-bottom: 128px;
 }
 
 .sub-box::after {
@@ -401,7 +459,7 @@ hr {
 /* <----------------------------------------------------------- footer ----------------------------------------------------------------> */
 
 .py-footer {
-    padding-top: 188px;
+    padding-top: 60px;
 }
 
 .-mt-3 {
@@ -436,4 +494,62 @@ hr {
 .my-media-text {
     margin-top: 31px;
     padding-bottom: 31px;
+}
+
+.back-footer-images {
+    background-image: url("../Images/PNG/footer-back-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-footer-layer {
+    top: 0;
+    left: 0;
+}
+
+/* <----------------------------------------------------------- Roadmap section ----------------------------------------------------------------> */
+
+.py-roadmap {
+    padding-top: 77px;
+    padding-bottom: 280px;
+}
+
+.roadmap-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 68px;
+    background: #4A15C3;
+}
+
+.max-w-row {
+    max-width: 530px;
+}
+
+.mt-media-row-roadmap {
+    margin-top: 50px;
+}
+
+.pos-roadmap-img {
+    right: 0;
+    bottom: 75px;
+    z-index: 1;
+}
+
+.mb-media-roadmap-heading {
+    margin-bottom: 60px;
+}
+
+.bottom-layer-roadmap {
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+/* <----------------------------------------------------------- Hover effects ----------------------------------------------------------------> */
+
+.btn_hover:hover {
+    background: var(--color-white);
+    color: #DA0C1D !important;
 }

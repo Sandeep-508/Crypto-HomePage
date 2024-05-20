@@ -27,9 +27,9 @@
                     <div class="d-flex align-items-center gap_media max_lg_view">
                         <a href="#home" class="fm fw-400 fs-16 text-white nav_link opac_70">Home</a>
                         <a href="#about" class="fm fw-400 fs-16 text-white nav_link opac_70">About Us</a>
-                        <a href="#help" class="fm fw-400 fs-16 text-white nav_link opac_70">How to Buy</a>
-                        <a href="#test" class="fm fw-400 fs-16 text-white nav_link opac_70">Staking</a>
-                        <a href="#test" class="fm fw-400 fs-16 text-white nav_link opac_70">Roadmap</a>
+                        <a href="#buy" class="fm fw-400 fs-16 text-white nav_link opac_70">How to Buy</a>
+                        <a href="#stake" class="fm fw-400 fs-16 text-white nav_link opac_70">Staking</a>
+                        <a href="#roadmap" class="fm fw-400 fs-16 text-white nav_link opac_70">Roadmap</a>
                         <button class="fm fw-700 fs-16 lh-150 display_changes_1 btn_change">Launch dApp</button>
                     </div>
                     <div class="d-flex align-items-center gap_30px">
@@ -80,7 +80,7 @@
 
         <!-- about us -->
 
-        <section class="about_us_back_img py-about-us">
+        <section class="about_us_back_img py-about-us" id="about">
             <div class="container-about-us">
                 <div class="row justify-content-between flex-lg-row flex-column-reverse">
                     <div
@@ -121,9 +121,9 @@
             </div>
         </section>
 
-        <!-- roadmap -->
+        <!-- Timeline -->
 
-        <section class="py-roadmap-sec sec-back-clr">
+        <section class="py-timeline-sec sec-back-clr" id="buy">
             <div class="container_hero">
                 <p class="fm fw-700 fs-54 lh-120 text-white mb-3 fs-heading-about-us text-center">
                     How To Buy Crypto</p>
@@ -161,13 +161,13 @@
                             </div>
                             <!--path between 2-3-->
                             <div class="row timeline">
-                                <div class="col-2">
+                                <div class="col-3">
                                     <div class="corner right-bottom"></div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-5">
                                     <hr />
                                 </div>
-                                <div class="col-2">
+                                <div class="col-4">
                                     <div class="corner top-left"></div>
                                 </div>
                             </div>
@@ -195,13 +195,13 @@
                             </div>
                             <!--path between 1-2-->
                             <div class="row timeline">
-                                <div class="col-2">
+                                <div class="col-3">
                                     <div class="corner top-right"></div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-5">
                                     <hr />
                                 </div>
-                                <div class="col-2">
+                                <div class="col-4">
                                     <div class="corner left-bottom"></div>
                                 </div>
                             </div>
@@ -229,13 +229,13 @@
                             </div>
                             <!--path between 2-3-->
                             <div class="row timeline">
-                                <div class="col-2">
+                                <div class="col-3">
                                     <div class="corner right-bottom"></div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-5">
                                     <hr />
                                 </div>
-                                <div class="col-2">
+                                <div class="col-4">
                                     <div class="corner top-left"></div>
                                 </div>
                             </div>
@@ -263,13 +263,13 @@
                             </div>
                             <!--path between 1-2-->
                             <div class="row timeline">
-                                <div class="col-2">
+                                <div class="col-3">
                                     <div class="corner top-right"></div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-5">
                                     <hr />
                                 </div>
-                                <div class="col-2">
+                                <div class="col-4">
                                     <div class="corner left-bottom"></div>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@
                         <div
                             class="row align-items-md-center position-relative z-3 pos-roadmap-row-max-md align-items-baseline how-it-works flex-row-reverse d-md-min-roadmap-none">
                             <div class="col-md-7 col-9 text-right">
-                                <div class="timeline_boxes">
+                                <div class="timeline_boxes timeline_boxes_last">
                                     <p class="fm fw-700 fs-20 lh-120 text-white fs-sub-heading-roadmap">Create a DeFi
                                         wallet</p>
                                     <p class="text-white fm fw-400 fs-16 lh-150 fs-sub-text-hero">Creating a
@@ -318,6 +318,69 @@
                                         class="wh_changes_timeline_img"></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap -->
+
+        <section class="py-roadmap sec-back-clr d-flex align-items-start justify-content-center position-relative"
+            id="roadmap">
+            <div class="bottom-layer-roadmap position-absolute w-100">
+                <img src="./assets/Images/PNG/roadmap-bottom-layer.png" alt="bottom layer" class="w-100">
+            </div>
+            <div class="position-absolute pos-roadmap-img d-max-sm-none">
+                <img src="./assets/Images/PNG/roadmap-main-image.png" alt="random images" class="opac-20-max-xl">
+            </div>
+            <div class="container_hero w-100 position-relative z-3">
+                <p class="fm fw-700 fs-54 lh-120 text-white fs-heading-about-us text-center mb-media-roadmap-heading">
+                    Roadmap</p>
+                <div class="row max-w-row">
+                    <div class="col-sm-6 mt-media-row-roadmap">
+                        <div class="roadmap-box d-flex align-items-center justify-content-center">
+                            <img src="./assets/Images/SVG/roadmap-svg-box-img-1.svg" alt="random image">
+                        </div>
+                        <p class="fm fw-700 fs-20 lh-120 text-white mt-3 mb-2 fs-sub-heading-roadmap-text">Platform
+                            Development</p>
+                        <p class="fm fw-400 fs-16 lh-150 text-white opac_70 mb-0 fs-sub-text-hero">Build a robust
+                            backend system to
+                            handle
+                            raffle transactions and crypto reward distribution.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mt-media-row-roadmap">
+                        <div class="roadmap-box d-flex align-items-center justify-content-center"
+                            style="background: #4D0B5D;">
+                            <img src="./assets/Images/SVG/roadmap-svg-box-img-2.svg" alt="random image">
+                        </div>
+                        <p class="fm fw-700 fs-20 lh-120 text-white mt-3 mb-2 fs-sub-heading-roadmap-text">Security
+                            Measures</p>
+                        <p class="fm fw-400 fs-16 lh-150 text-white opac_70 mb-0 fs-sub-text-hero">Implement robust
+                            security measures to protect user data and crypto assets.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mt-media-row-roadmap">
+                        <div class="roadmap-box d-flex align-items-center justify-content-center"
+                            style="background: #2C106C;">
+                            <img src="./assets/Images/SVG/roadmap-svg-box-img-3.svg" alt="random image">
+                        </div>
+                        <p class="fm fw-700 fs-20 lh-120 text-white mt-3 mb-2 fs-sub-heading-roadmap-text">Legal and
+                            Compliance</p>
+                        <p class="fm fw-400 fs-16 lh-150 text-white opac_70 mb-0 fs-sub-text-hero">Understand and comply
+                            with cryptocurrency regulations in relevant jurisdictions.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 mt-media-row-roadmap">
+                        <div class="roadmap-box d-flex align-items-center justify-content-center"
+                            style="background: #81139B;">
+                            <img src="./assets/Images/SVG/roadmap-svg-box-img-4.svg" alt="random image">
+                        </div>
+                        <p class="fm fw-700 fs-20 lh-120 text-white mt-3 mb-2 fs-sub-heading-roadmap-text">Community
+                            Incentives</p>
+                        <p class="fm fw-400 fs-16 lh-150 text-white opac_70 mb-0 fs-sub-text-hero">Launch programs that
+                            reward community members for promoting the platform.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -453,7 +516,15 @@
 
         <!-- staking -->
 
-        <section class="py-staking sec-back-clr stake-back-img">
+        <section class="py-staking sec-back-clr stake-back-img position-relative" id="stake">
+            <div class="stake-top-layer w-100">
+                <img src="./assets/Images/PNG/stake-sec-top-layer.png" alt="top layer of the stake section"
+                    class="w-100">
+            </div>
+            <div class="stake-bottom-layer w-100">
+                <img src="./assets/Images/PNG/stake-sec-bottom-layer.png" alt="top layer of the stake section"
+                    class="w-100">
+            </div>
             <div class="container_hero">
                 <div class="row flex-lg-row flex-column-reverse">
                     <div class="col-lg-6 d-flex align-items-center justify-content-center mt-lg-0 mt-4">
@@ -480,7 +551,7 @@
 
         <!-- subscribe section -->
 
-        <section class="sec-back-clr position-relative pt-max-lg">
+        <section class="sec-back-clr position-relative pt-max-lg pb-media-sub">
             <div class="container d-flex justify-content-center align-items-start pos-sub-sec-full">
                 <div class="sub-box position-relative w-100">
                     <div class="pos-sub-sec position-absolute h-100 d-flex align-items-center justify-content-center">
@@ -512,7 +583,10 @@
 
     <!-- footer -->
 
-    <footer class="py-footer sec-back-clr -mt-3">
+    <footer class="py-footer back-footer-images position-relative -mt-3">
+        <div class="position-absolute top-footer-layer w-100">
+            <img src="./assets/Images/PNG/footer-top-layer.png" alt="top-layer footer" class="w-100">
+        </div>
         <div class="d-flex align-items-center justify-content-center flex-column">
             <div class="box-footer d-flex align-items-center justify-content-center flex-column">
                 <div class="d-flex align-items-center justify-content-center">
@@ -525,6 +599,13 @@
                         fact that a reader distracted
                         layout.
                     </p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-media-footer mb-4">
+                    <a href="#home" class="fm fw-400 fs-16 text-white nav_link opac_70 fs-nav-link">Home</a>
+                    <a href="#about" class="fm fw-400 fs-16 text-white nav_link opac_70 fs-nav-link">About Us</a>
+                    <a href="#buy" class="fm fw-400 fs-16 text-white nav_link opac_70 fs-nav-link">How to Buy</a>
+                    <a href="#stake" class="fm fw-400 fs-16 text-white nav_link opac_70 fs-nav-link">Staking</a>
+                    <a href="#roadmap" class="fm fw-400 fs-16 text-white nav_link opac_70 fs-nav-link">Roadmap</a>
                 </div>
                 <div class="overflow-auto"></div>
                 <div class="d-flex align-items-center justify-content-between w-scoial-icons">
