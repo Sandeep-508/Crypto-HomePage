@@ -68,6 +68,12 @@
     max-width: 920px;
 }
 
+.pos-hero-notes {
+    bottom: 45px;
+    z-index: 1;
+    left: 42px;
+}
+
 .max-w-hero-sub-text {
     max-width: 580px;
 }
@@ -89,6 +95,12 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+.pos-ellipse-hero {
+    left: 0;
+    bottom: -60%;
+    z-index: 10;
 }
 
 /* <-----------------------------------------------------------About Us ----------------------------------------------------------------> */
@@ -114,6 +126,19 @@
 }
 
 /* <----------------------------------------------------------- Timeline ----------------------------------------------------------------> */
+.pos-abs-fire {
+    top: 0;
+    left: 0;
+}
+
+.top-ellipse-timeline {
+    width: 525px;
+    height: 525px;
+    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    filter: blur(60px);
+    border-radius: 50%;
+}
+
 .timeline .top-left {
     left: -81% !important;
 }
