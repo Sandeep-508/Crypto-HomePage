@@ -772,7 +772,7 @@ a {
     }
 }
 
-@media (max-width: 768.9px) {
+@media (max-width: 767.9px) {
     .pos-abs-fire-token {
         top: 0;
     }

@@ -110,7 +110,7 @@
     border-radius: 50%;
     bottom: 45px;
     left: 45px;
-    z-index: 10;
+    z-index: -1;
 }
 
 /* <-----------------------------------------------------------About Us ----------------------------------------------------------------> */
@@ -240,6 +240,7 @@
     background: linear-gradient(0deg, #000000, #000000),
         linear-gradient(180deg, rgba(37, 37, 203, 0) 0%, rgba(37, 37, 203, 0.24) 100%);
     padding: 24px;
+    border-radius: 24px;
 }
 
 .timeline_boxes::after {
