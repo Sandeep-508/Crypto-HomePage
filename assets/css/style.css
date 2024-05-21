@@ -395,6 +395,10 @@ hr {
     z-index: 10;
 }
 
+.pe_30px {
+    padding-left: 30px;
+}
+
 .ellipse-token-bottom {
     position: absolute;
     width: 259.81px;
@@ -985,12 +989,13 @@ hr {
     width: 100%;
     font-weight: bold;
     font-family: monospace;
-    font-size: 30px;
-    background: linear-gradient(90deg, #000 50%, #0000 0) right / 200% 100%;
+    font-size: 40px;
+    background: linear-gradient(90deg, #FFF 50%, #000 0) right / 200% 100%;
     animation: l21 2s infinite linear;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .loader::before {
