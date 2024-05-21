@@ -72,6 +72,7 @@
     z-index: 14;
 }
 
+
 .pos-hero-notes {
     bottom: 45px;
     z-index: 1;
@@ -105,7 +106,7 @@
     position: absolute;
     width: 525px;
     height: 525px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(400px);
     border-radius: 50%;
     bottom: 45px;
@@ -145,7 +146,7 @@
     position: absolute;
     width: 525px;
     height: 525px;
-    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    background: var(--top-ellipse-sub-clr);
     filter: blur(300px);
     border-radius: 50%;
     top: 0;
@@ -157,7 +158,7 @@
     position: absolute;
     width: 525px;
     height: 525px;
-    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    background: var(--top-ellipse-sub-clr);
     filter: blur(300px);
     border-radius: 50%;
     bottom: 0;
@@ -169,7 +170,7 @@
     position: absolute;
     width: 525px;
     height: 525px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(400px);
     border-radius: 50%;
     top: 50%;
@@ -237,8 +238,7 @@
 
 .timeline_boxes {
     max-width: 578px;
-    background: linear-gradient(0deg, #000000, #000000),
-        linear-gradient(180deg, rgba(37, 37, 203, 0) 0%, rgba(37, 37, 203, 0.24) 100%);
+    background: var(--timeline-boxes-border);
     padding: 24px;
     border-radius: 24px;
 }
@@ -249,8 +249,7 @@
     inset: 0;
     border-radius: 24px;
     padding: 3px;
-    background: linear-gradient(0deg, #212181, #212181),
-        linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    background: var(--token-box-border-after);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -262,7 +261,7 @@
 .image_wh_box {
     width: 160px;
     height: 160px;
-    background: #FFFFFF1A;
+    background: var(--img-w-h-box);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,8 +272,8 @@
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 50%;
-    background-color: #ED8D8D;
-    color: #4D4545;
+    background-color: var(--timeline-back-clr-circle);
+    color: var(--circle-text-clr);
     max-height: 50px;
     z-index: 2;
     display: none;
@@ -383,7 +382,7 @@ hr {
     position: absolute;
     width: 259.81px;
     height: 259.81px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(170px);
     border-radius: 50%;
     top: 150px;
@@ -395,7 +394,7 @@ hr {
     position: absolute;
     width: 259.81px;
     height: 259.81px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(170px);
     border-radius: 50%;
     bottom: -139px;
@@ -435,7 +434,7 @@ hr {
 
 .token_box {
     position: relative;
-    background: #21218126;
+    background: var(--token-box-bg-clr);
     padding: 45px;
 }
 
@@ -445,7 +444,7 @@ hr {
     inset: 0;
     border-radius: 24px;
     padding: 3px;
-    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    background: var(--token-box-border-after);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -474,7 +473,7 @@ hr {
     inset: 0;
     border-radius: 6px;
     padding: 1px;
-    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    background: var(--token-box-border-after);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -528,7 +527,7 @@ hr {
     position: absolute;
     width: 417px;
     height: 417px;
-    background: linear-gradient(180deg, #101145 0%, #212181 100%);
+    background: var(--top-ellipse-sub-clr);
     filter: blur(250px);
     border-radius: 50%;
     z-index: 10;
@@ -543,7 +542,7 @@ hr {
 
 .sub-box {
     max-width: 1038px;
-    background: linear-gradient(180deg, rgba(241, 22, 64, 0.24) 0%, rgba(33, 33, 129, 0.19) 64.12%, rgba(33, 33, 129, 0.18) 100%);
+    background: var(--sub-box-clr);
 }
 
 .pb-media-sub {
@@ -556,7 +555,7 @@ hr {
     inset: 0;
     border-radius: 6px;
     padding: 1px;
-    background: linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
+    background: var(--token-box-border-after);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -566,7 +565,7 @@ hr {
 }
 
 .btn-sub-sec {
-    background: #FFBBC81A;
+    background: var(--btn-sub-clr);
     border: 3px solid #DA0C1D;
 }
 
@@ -594,7 +593,7 @@ hr {
     position: absolute;
     width: 307.05px;
     height: 307.05px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(170px);
     border-radius: 50%;
     top: -100px;
@@ -632,6 +631,7 @@ hr {
     height: 40px;
     border-radius: 47px;
     border: 0.78px solid var(--color-white);
+    transition: all 300ms linear;
 }
 
 .line {
@@ -662,7 +662,7 @@ hr {
     position: absolute;
     width: 259.81px;
     height: 259.81px;
-    background: #F11640B8;
+    background: var(--token-ellipse-clr);
     filter: blur(170px);
     border-radius: 50%;
     bottom: 108px;
@@ -685,7 +685,7 @@ hr {
     width: 60px;
     height: 60px;
     border-radius: 68px;
-    background: #4A15C3;
+    background: var(--roadmap-box);
 }
 
 .max-w-row {
@@ -717,7 +717,15 @@ hr {
 
 .btn_hover:hover {
     background: var(--color-white);
-    color: #DA0C1D !important;
+    color: var(--btn_hover_color) !important;
+}
+
+.svg-footer-box:hover svg path {
+    fill: var(--svg_fill_clr);
+}
+
+.svg-footer-box:hover {
+    background: var(--color-white);
 }
 
 /* <----------------------------------------------------------- Z-indexes ----------------------------------------------------------------> */
@@ -749,7 +757,7 @@ hr {
 
 .scroll_box:hover {
     transform: scale(1.2);
-    box-shadow: 0px 0px 50px -3px #4A15C3;
+    box-shadow: 0px 0px 50px -3px var(--roadmap-box);
 }
 
 /* <----------------------------------------------------------- Preloader ----------------------------------------------------------------> */
@@ -984,7 +992,7 @@ hr {
 
 .loader::before {
     content: "Loading...";
-    color: #0000;
+    color: var(--black-color);
     padding: 0 5px;
     background: inherit;
     background-image: linear-gradient(90deg, #fff 50%, #000 0);

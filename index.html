@@ -14,7 +14,7 @@
 
     <!-- preloader -->
 
-    <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column">
+    <!-- <section class="preloader position-fixed d-flex align-items-center justify-content-center flex-column">
         <div class="container_hero prop_cont d-flex flex-column align-items-center justify-content-center">
             <div class="artboard mb-media-max-md">
                 <div class="domino">
@@ -26,7 +26,7 @@
             </div>
             <div class="loader mt-lg-5 mt-4"></div>
         </div>
-    </section>
+    </section> -->
     <!-- header -->
 
     <header class="d-flex flex-column position-relative hero_back_img min-vh-lg-100">
@@ -87,10 +87,10 @@
                     <button class="fm fw-700 fs-16 lh-150 btn_hover btn_change text-white">Launch
                         dApp</button>
                     <div class="d-flex align-items-center gap-3">
-                        <div class="play_icon">
+                        <div class="play_icon cursor">
                             <img src="./assets/Images/SVG/play_btn.svg" alt="play button icon">
                         </div>
-                        <p class="fm fw-700 fs-16 lh-150 text-white mb-0">Learn More</p>
+                        <p class="fm fw-700 fs-16 lh-150 text-white mb-0 cursor">Learn More</p>
                     </div>
                 </div>
             </div>
@@ -366,9 +366,10 @@
                 <img src="./assets/Images/SVG/roadmap-right-fire-img.png" alt="fire svg" class="w-h-media-token">
             </div>
             <div class="position-absolute pos-roadmap-img d-max-sm-none">
-                <img src="./assets/Images/PNG/roadmap-main-image.png" alt="random images" class="opac-20-max-xl">
+                <img src="./assets/Images/PNG/roadmap-main-image.png" alt="random images"
+                    class="opac-20-max-xl w-h-max-md-roadmap">
             </div>
-            <div class="container_hero w-100 position-relative z-14">
+            <div class="container_hero w-100 position-relative z-14 max-md-backdrop">
                 <p class="fm fw-700 fs-54 lh-120 text-white fs-heading-about-us text-center mb-media-roadmap-heading">
                     Roadmap</p>
                 <div class="row max-w-row">
@@ -658,7 +659,8 @@
                         layout.
                     </p>
                 </div>
-                <div class="d-flex align-items-center justify-content-no-center justify-min-sm-center gap-media-footer mb-4 over-prop">
+                <div
+                    class="d-flex align-items-center justify-content-no-center justify-min-sm-center gap-media-footer mb-4 over-prop">
                     <a href="#home" class="fm fw-400 fs-16 text-white nav_link opac_70 text-nowrap">Home</a>
                     <a href="#about" class="fm fw-400 fs-16 text-white nav_link opac_70 text-nowrap">About Us</a>
                     <a href="#buy" class="fm fw-400 fs-16 text-white nav_link opac_70 text-nowrap">How to Buy</a>
@@ -668,13 +670,25 @@
                 <div class="overflow-auto"></div>
                 <div class="d-flex align-items-center justify-content-between w-scoial-icons">
                     <a href="#" class="svg-footer-box d-flex align-items-center justify-content-center">
-                        <img src="./assets/Images/SVG/footer-tele-link.svg" alt="telegram link">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.5728 1.27684C21.5933 1.15327 21.5812 1.02648 21.5377 0.909012C21.4942 0.791543 21.4208 0.68747 21.3247 0.607091C21.2286 0.526712 21.1132 0.472812 20.9899 0.450725C20.8666 0.428638 20.7397 0.439129 20.6217 0.48116L0.477786 7.67541C0.345006 7.72275 0.229062 7.80807 0.144357 7.92075C0.0596518 8.03344 0.00991867 8.16852 0.00133516 8.30923C-0.00724835 8.44994 0.025696 8.59007 0.096076 8.71221C0.166456 8.83436 0.27117 8.93313 0.39721 8.99627L6.15261 11.874C6.26603 11.9307 6.39245 11.9565 6.51904 11.9487C6.64564 11.9408 6.76791 11.8997 6.87347 11.8294L11.6504 8.64375L8.79146 12.2207C8.72924 12.2986 8.68388 12.3885 8.65825 12.4848C8.63261 12.5811 8.62727 12.6817 8.64256 12.7802C8.65784 12.8787 8.69342 12.9729 8.74704 13.0569C8.80066 13.1409 8.87115 13.2129 8.95405 13.2682L17.5871 19.0236C17.6871 19.0901 17.8021 19.1305 17.9217 19.1411C18.0413 19.1518 18.1616 19.1323 18.2717 19.0845C18.3819 19.0368 18.4783 18.9622 18.5522 18.8676C18.6262 18.773 18.6753 18.6614 18.6951 18.543L21.5728 1.27684Z"
+                                fill="white" />
+                        </svg>
                     </a>
                     <a href="#" class="svg-footer-box d-flex align-items-center justify-content-center">
-                        <img src="./assets/Images/SVG/footer-medium-link.svg" alt="telegram link">
+                        <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.5928 1.89711L16.8848 0.655681V0.383789H12.4102L9.22125 8.35928L5.59391 0.383789H0.9022V0.655681L2.4113 2.48094C2.55884 2.61583 2.63472 2.81395 2.61575 3.01208V10.1845C2.66212 10.4438 2.57992 10.7072 2.39866 10.8948L0.697754 12.9667V13.2344H5.51593V12.9625L3.81713 10.8969C3.72611 10.8045 3.65765 10.6924 3.61707 10.5692C3.57649 10.446 3.56489 10.3151 3.58318 10.1867V3.98161L7.81331 13.2386H8.3044L11.9423 3.98161V11.3564C11.9423 11.5503 11.9423 11.5904 11.8158 11.7189L10.5069 12.9899V13.2618H16.8553V12.9899L15.5928 11.7484C15.4832 11.6641 15.4263 11.5229 15.4495 11.3859V2.25963C15.4386 2.1919 15.4461 2.12248 15.4713 2.05868C15.4966 1.99488 15.5385 1.93907 15.5928 1.89711Z"
+                                fill="white" />
+                        </svg>
                     </a>
                     <a href="#" class="svg-footer-box d-flex align-items-center justify-content-center">
-                        <img src="./assets/Images/SVG/footer-twitter-link.svg" alt="telegram link">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.9951 0.0366211H20.3041L13.0748 8.29996L21.58 19.5422H14.9208L9.7056 12.723L3.73694 19.5422H0.426205L8.15904 10.7034L0 0.0375203H6.82827L11.5426 6.27054L16.9951 0.0366211ZM15.8343 17.5623H17.6677L5.832 1.91318H3.86462L15.8343 17.5623Z"
+                                fill="white" />
+                        </svg>
                     </a>
                 </div>
             </div>
