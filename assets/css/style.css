@@ -238,7 +238,7 @@
 
 .timeline_boxes {
     max-width: 578px;
-    background: var(--timeline-boxes-border);
+    background: var(--timeline-boxes-bg);
     padding: 24px;
     border-radius: 24px;
 }
@@ -249,7 +249,7 @@
     inset: 0;
     border-radius: 24px;
     padding: 3px;
-    background: var(--token-box-border-after);
+    background: var(--timeline-boes-border-after);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -543,6 +543,7 @@ hr {
 .sub-box {
     max-width: 1038px;
     background: var(--sub-box-clr);
+    border-radius: 25px;
 }
 
 .pb-media-sub {
@@ -553,7 +554,7 @@ hr {
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 6px;
+    border-radius: 25px;
     padding: 1px;
     background: var(--token-box-border-after);
     -webkit-mask:

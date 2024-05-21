@@ -48,15 +48,17 @@
     --top-ellipse-sub-clr: linear-gradient(180deg, #101145 0%, #212181 100%);
     --sub-box-clr: linear-gradient(180deg, rgba(241, 22, 64, 0.24) 0%, rgba(33, 33, 129, 0.19) 64.12%, rgba(33, 33, 129, 0.18) 100%);
     --roadmap-box: #4A15C3;
-    --timeline-boxes-border: linear-gradient(0deg, #000000, #000000),
+    --timeline-boxes-bg: linear-gradient(0deg, #000000, #000000),
         linear-gradient(180deg, rgba(37, 37, 203, 0) 0%, rgba(37, 37, 203, 0.24) 100%);
     --img-w-h-box: #FFFFFF1A;
+    --timeline-boes-border-after: linear-gradient(0deg, #212181, #212181),
+        linear-gradient(92.76deg, rgba(241, 22, 64, 0.5) 0.29%, rgba(74, 18, 204, 0.5) 64.44%);
     --btn-sub-clr: #FFBBC81A;
---preloader-boxes: #354558;
---domino-other-clr: #625059;
---domino-third-clr: #905b5c;
---domino-forth-clr: #bd665e;
---domino-fifth-clr: #eb7260;
+    --preloader-boxes: #354558;
+    --domino-other-clr: #625059;
+    --domino-third-clr: #905b5c;
+    --domino-forth-clr: #bd665e;
+    --domino-fifth-clr: #eb7260;
 
 
 
@@ -85,7 +87,7 @@
 
 
     /* font weight */
-    
+
     --fw-400: 400;
     --fw-300: 300;
     --fw-500: 500;
@@ -96,7 +98,7 @@
 
 
     /* font-size */
-    
+
     --fs-10: 10px;
     --fs-12: 12px;
     --fs-14: 14px;
