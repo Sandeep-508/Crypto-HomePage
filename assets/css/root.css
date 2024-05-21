@@ -28,7 +28,9 @@
 /* <----------------------------------------------------------- root ----------------------------------------------------------------> */
 
 :root {
+
     /* colors */
+
     --color-white: #FFFFFF;
     --black-color: #000000;
     --navBar-back: #FFFFFF0A;
@@ -50,8 +52,16 @@
         linear-gradient(180deg, rgba(37, 37, 203, 0) 0%, rgba(37, 37, 203, 0.24) 100%);
     --img-w-h-box: #FFFFFF1A;
     --btn-sub-clr: #FFBBC81A;
+--preloader-boxes: #354558;
+--domino-other-clr: #625059;
+--domino-third-clr: #905b5c;
+--domino-forth-clr: #bd665e;
+--domino-fifth-clr: #eb7260;
+
+
 
     /* font-family */
+
     --fm-poppins: "Poppins", sans-serif;
     --fm-sans-racing: "Racing Sans One", sans-serif;
     --fm-imbue: "Imbue", serif;
@@ -62,16 +72,20 @@
     --fm-inter: "Inter", sans-serif;
     --fm: "Raleway", sans-serif;
 
+
     /* style */
 
     --font-style: italic;
+
 
     /* letter spacing */
 
     --ls-main-heading: 0.2em;
     --ls-hero-text: -1.27px;
 
+
     /* font weight */
+    
     --fw-400: 400;
     --fw-300: 300;
     --fw-500: 500;
@@ -80,7 +94,9 @@
     --fw-700: 700;
     --fw-900: 900;
 
+
     /* font-size */
+    
     --fs-10: 10px;
     --fs-12: 12px;
     --fs-14: 14px;
@@ -117,6 +133,7 @@
 
 
     /* lh */
+
     --lh-16: 16px;
     --lh-18: 18px;
     --lh-19: 19px;
@@ -159,6 +176,7 @@
     --lh-96: 96px;
     --lh-100: 100px;
     --lh-188: 188px;
+
 
     /* lh in percent */
 

@@ -817,51 +817,51 @@ hr {
 }
 
 .domino>div:nth-child(1) {
-    background: #354558;
+    background: var(--preloader-boxes);
 }
 
 .domino>div:nth-child(1):after {
-    background: #354558;
+    background: var(--preloader-boxes);
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.6s;
 }
 
 .domino>div:nth-child(2) {
-    background: #625059;
+    background: var(--domino-other-clr);
 }
 
 .domino>div:nth-child(2):after {
-    background: #625059;
+    background: var(--domino-other-clr);
     -webkit-animation-delay: 1.2s;
     animation-delay: 1.2s;
 }
 
 .domino>div:nth-child(3) {
-    background: #905b5c;
+    background: var(--domino-third-clr);
 }
 
 .domino>div:nth-child(3):after {
-    background: #905b5c;
+    background: var(--domino-third-clr);
     -webkit-animation-delay: 1.8s;
     animation-delay: 1.8s;
 }
 
 .domino>div:nth-child(4) {
-    background: #bd665e;
+    background: var(--domino-forth-clr);
 }
 
 .domino>div:nth-child(4):after {
-    background: #bd665e;
+    background: var(--domino-forth-clr);
     -webkit-animation-delay: 2.4s;
     animation-delay: 2.4s;
 }
 
 .domino>div:nth-child(5) {
-    background: #eb7260;
+    background: var(--domino-fifth-clr);
 }
 
 .domino>div:nth-child(5):after {
-    background: #eb7260;
+    background: var(--domino-fifth-clr);
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
@@ -976,7 +976,6 @@ hr {
         opacity: 0;
     }
 }
-
 
 .loader {
     width: 100%;
