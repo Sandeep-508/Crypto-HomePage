@@ -794,7 +794,6 @@ a {
 
     .py-takenomics {
         padding-top: 80px;
-        /* padding-bottom: 80px; */
     }
 
     .py-roadmap-sec {
@@ -890,10 +889,6 @@ a {
         height: 50px;
     }
 
-    /* .pb-media-sub {
-        padding-bottom: 80px;
-    } */
-
     .gap-media-footer {
         gap: 20px;
     }
@@ -911,12 +906,7 @@ a {
         margin-bottom: 30px;
     }
 
-    /* .pt-max-lg {
-        padding-top: 60px;
-    } */
-
     .py-staking {
-        /* padding-top: 80px; */
         padding-bottom: 20px;
     }
 
@@ -974,7 +964,7 @@ a {
 
     .image_wh_box {
         width: 50px;
-        height: 45px;
+        height: 50px;
     }
 
     .image_wh_box_media {
@@ -1010,7 +1000,6 @@ a {
 
     .py-takenomics {
         padding-top: 60px;
-        /* padding-bottom: 60px; */
     }
 
     .py-roadmap-sec {
@@ -1082,10 +1071,6 @@ a {
         margin-right: 19px;
     }
 
-    /* .pb-media-sub {
-        padding-bottom: 20px;
-    } */
-
     .timeline div {
         padding: 0;
         height: 25px;
@@ -1123,7 +1108,6 @@ a {
     }
 
     .py-staking {
-        /* padding-top: 60px; */
         padding-bottom: 20px;
     }
 
@@ -1165,7 +1149,6 @@ a {
 
     .py-takenomics {
         padding-top: 50px;
-        /* padding-bottom: 0; */
     }
 
     .py-roadmap-sec {
@@ -1243,5 +1226,11 @@ a {
 @media (max-width: 576.9px) {
     .justify-content-no-center {
         justify-content: unset;
+    }
+}
+
+@media (min-width:1200px) {
+    .max-w-col {
+        max-width: 237px;
     }
 }
