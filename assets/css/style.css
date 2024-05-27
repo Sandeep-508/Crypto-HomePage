@@ -117,7 +117,7 @@
 /* <-----------------------------------------------------------About Us ----------------------------------------------------------------> */
 .about_us_back_img {
     background-image: url("../Images/PNG/about_us_back_img.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -470,9 +470,12 @@ hr {
 
 .img-box-partner {
     width: 210px;
-    min-height: 100%;
+    height: 80px;
     padding: 19.99px 29.26px 20px 29px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-box-partner::after {
