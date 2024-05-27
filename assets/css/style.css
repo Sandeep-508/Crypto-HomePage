@@ -444,6 +444,7 @@ hr {
     position: relative;
     background: var(--token-box-bg-clr);
     padding: 45px;
+    backdrop-filter: blur(20px);
 }
 
 .token_box::after {
