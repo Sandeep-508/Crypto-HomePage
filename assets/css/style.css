@@ -117,7 +117,7 @@
 /* <-----------------------------------------------------------About Us ----------------------------------------------------------------> */
 .about_us_back_img {
     background-image: url("../Images/PNG/about_us_back_img.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
