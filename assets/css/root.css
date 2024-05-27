@@ -873,7 +873,7 @@ a {
     }
 
     .timeline_boxes_last {
-        margin-right: 27px;
+        margin-right: 18px;
     }
 
     .pos-hero-notes {
@@ -993,7 +993,7 @@ a {
     }
 
     .pos-roadmap-row-max-md {
-        left: 0;
+        left: -10px;
         top: -5px;
     }
 
@@ -1037,6 +1037,10 @@ a {
     .over-prop {
         width: 300px;
         overflow-x: auto;
+    }
+
+    .pos-roadmap-row-max-md {
+        left: -3px;
     }
 
     .loader {
