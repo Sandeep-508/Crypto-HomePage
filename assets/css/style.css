@@ -109,9 +109,9 @@
     background: var(--token-ellipse-clr);
     filter: blur(400px);
     border-radius: 50%;
-    bottom: 45px;
-    left: 45px;
-    z-index: -1;
+    bottom: -25px;
+    left: 0px;
+    z-index: 0;
 }
 
 /* <-----------------------------------------------------------About Us ----------------------------------------------------------------> */
@@ -470,7 +470,7 @@ hr {
 
 .img-box-partner {
     width: 210px;
-    min-height: 80px;
+    min-height: 100%;
     padding: 19.99px 29.26px 20px 29px;
     position: relative;
 }
@@ -649,7 +649,6 @@ hr {
 }
 
 .my-media-text {
-    margin-top: 31px;
     padding-bottom: 31px;
 }
 
